@@ -14,7 +14,7 @@ Este projeto consiste em uma landing page para um escritório de assessoria jur�
 - CSS3
 - Bootstrap 5
 
-   Funcionalidades
+| Funcionalidades
   
 - Layout responsivo que se adapta a diferentes tamanhos de tela.
 - Seções bem definidas para apresentar os serviços, a equipe e as informações de contato do escritório.
