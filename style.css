@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+}
+
+body {
+    background: radial-gradient(circle, rgba(0,0,0, 1) 0%, rgba(36,36,36,1) 0%, rgba(0,0,0,1) 100%);
+    color: #FFFFFF;
+}
+
+/*Formatação Header*/
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Quicksand', 'Sans-Serif';
+    color: rgb(218, 183, 31);
+}
+
+.nav-link {
+    color: rgb(218, 183, 31);
+    transition: 0.5s;
+    margin-left: 10px !important;
+}
+
+.nav-link:hover {
+    color: rgb(202, 171, 33) !important;
+    border-bottom: 1px solid rgb(219, 191, 65);
+}
+
+.container span {
+    color: rgb(218, 183, 31);
+}
+
+/*Formatação Seção*/
+
+.secao1 {
+    font-family: 'Quicksand';
+}
+
+.container .btn {
+    border-radius: 25px;
+    font-family: 'Quicksand';
+}
+
+.text {
+    line-height: 1.7rem;
+}
+
+/*Formatação do banner */
+
+.rounded-img {
+    width: 400px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 15px;
+    position: relative;
+    background: url('/imagens/banner2.webp') no-repeat center center;
+    background-size: cover;
+    overflow: hidden;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+  }
+
+  .inner-div {
+    width: 200px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 10px;
+    margin: 35px auto;
+    position: relative;
+    z-index: 1;
+    backdrop-filter: blur(3px);
+  }
+
+  .container3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  /*Formatação footer*/
+
+  footer {
+    font-family: "Quicksand";
+    font-size: 0.7rem;
+    padding: 20px 0;
+    width: 1100px;
+  }
